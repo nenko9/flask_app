@@ -1,3 +1,4 @@
+#  env
 flask_app/bin/
 flask_app/include/
 flask_app/lib/
@@ -5,3 +6,8 @@ flask_app/lib64/
 flask_app/__pycache__
 flask_app/pyvenv.cfg
 flask_app/share/
+# win env
+flask_app/Include
+flask_app/Lib
+flask_app/Scripts
+flask_app/pyvenv.cfg
