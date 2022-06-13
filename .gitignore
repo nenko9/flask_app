@@ -1,0 +1,7 @@
+flask_app/bin/
+flask_app/include/
+flask_app/lib/
+flask_app/lib64/
+flask_app/__pycache__
+flask_app/pyvenv.cfg
+flask_app/share/
