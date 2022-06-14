@@ -1,0 +1,17 @@
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.search_container__text {
+    width: 80%;
+    font-size: 16pt;
+}
+
+.search_container__button,
+.filters__button {
+    font-size: 16pt;
+    width: 15%;
+}

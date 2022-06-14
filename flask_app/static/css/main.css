@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body_container {
+    width: 84%;
+    margin-left: 8%;
+}
+
+.content_box {
+    display: flex;
+    margin-top: 10px;
+}
+
+.box_left {
+    background-color: rgb(207, 121, 9, 0.2);
+    display: flex;
+    width: 20%;
+}
+
+.box_right {
+    border: 1px solid green;
+    width: 80%;
+    display: flex;
+}
+
+.filters {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.filters_field {
+    display: flex;
+    justify-content: right;
+    width: 80%;
+    margin-left: 4px;
+}
+
+label {
+    padding-left: 15px;
+}
