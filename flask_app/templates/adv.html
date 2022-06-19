@@ -1,7 +1,15 @@
+{% extends 'index.html' %}
 {% block adv %}
-<div class="adv_el">
-    <p>Title</p>
-    <p>Price</p>
-    <p>date</p>
-</div>
+    {% if data == null %}
+        <div class="adv_el">
+            <p>Nothing to found</p>
+        <div></div>
+        {% else %}
+        {% for element in data %}
+            <div class="adv_el">
+                <p>Title: {{element.title}}</p>
+                <p>Price: {{element.price}}</p>
+            </div>
+        {% endfor %}
+    {% endif %}
 {% endblock %}

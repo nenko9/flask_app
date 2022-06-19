@@ -15,3 +15,8 @@ form {
     font-size: 16pt;
     width: 15%;
 }
+.adv_el{
+    background-color: rgb(158, 92, 6, 0.2);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
